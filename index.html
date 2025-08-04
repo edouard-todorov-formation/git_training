@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header-container">
+        <h1>Git Training</h1>
+    </header>
+
+    <main class="main-container">
+        <section class="main-container_section">
+            <h2 class="main-container_section_title">Formulaire d'inscription</h2>
+            <form class="main-container_section_form" action="/inscription" method="post">
+                <label class="main-container_section_form_label" for="username">Nom d'utilisateur :</label><br>
+                <input class="main-container_section_form_input" type="text" id="username" name="username" required><br><br>
+
+                <label class="main-container_section_form_label" for="email">Adresse e-mail :</label><br>
+                <input class="main-container_section_form_input" type="email" id="email" name="email" required><br><br>
+
+                <label class="main-container_section_form_label" for="password">Mot de passe :</label><br>
+                <input class="main-container_section_form_input" type="password" id="password" name="password" required><br><br>
+
+                <label class="main-container_section_form_label" for="confirm_password">Confirmer le mot de passe :</label><br>
+                <input class="main-container_section_form_input" type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+                <input class="main-container_section_form_btn" type="submit" value="S'inscrire">
+            </form>
+        </section>
+        <section class="main-container_section">
+            <h2 class="main-container_section_title">Formulaire de connexion</h2>
+            <form class="main-container_section_form" action="/connexion" method="post">
+                <label class="main-container_section_form_label" for="username">Nom d'utilisateur ou e-mail :</label><br>
+                <input class="main-container_section_form_input" type="text" id="username" name="username" required><br><br>
+
+                <label class="main-container_section_form_label" for="password">Mot de passe :</label><br>
+                <input class="main-container_section_form_input" type="password" id="password" name="password" required><br><br>
+
+                <input class="main-container_section_form_btn" type="submit" value="Se connecter">
+            </form>
+        </section>
+    </main>
+    <footer>FOOTER</footer>
+</body>
+</html>
